@@ -1,58 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>Cybersecurity Article</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Finance</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html">Finance</a>
-            </li>
-           
-            <li class="nav-item">
-              <a class="nav-link" href="#emergency-fund">Emergency Fund</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#retirement">Retirement</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#debt">Debt</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <section id="budget" class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="/images/budgett.png" alt="Budget Image" class="img-fluid">
-              </div>
-          <div class="col-md-6">
-            <h2>Budget</h2>
-            <p>Setting up a budget is one of the most important things you can do as a young adult just starting out in the working world. It will help you keep track of your income and expenses, and ensure that you're not overspending.</p>
-            <p>Here are some tips for setting up a budget:</p>
-            <ul>
-              <li>List all of your income sources.</li>
-              <li>Track your expenses for a month to see where your money is going.</li>
-              <li>Identify areas where you can cut back on spending.</li>
-              <li>Allocate a portion of your income towards savings.</li>
-            </ul>
+
+  <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+    <a class="navbar-brand" href="#">Daily Hub</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/index.html">Finance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/technology.html">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/healthcare.html">Healthcare</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Education</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Stay Safe Online</h1>
+    <p class="lead">Learn how to protect your digital life with our cybersecurity articles and tips.</p>
+    <hr class="my-4">
+   
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Password Security</h5>
+            <p class="card-text">Learn how to create strong, unique passwords and protect your online accounts.</p>
+            <a href="#" class="security-tip">Read More</a>
           </div>
-          
         </div>
-      </section>
-      
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Phishing Scams</h5>
+            <p class="card-text">Discover common phishing scams and how to avoid them.</p>
+            <a href="#" class="security-tip">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Phishing Scams 2</h5>
+            <p class="card-text">Discover common phishing scams and how to avoid them.</p>
+            <a href="#" class="security-tip">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <div id="quiz">
+              <h5>Quiz: How Much Do You Know About Cybersecurity?</h3>
+              <p>Question 1: What is a phishing attack?</p>
+              <ul>
+                <li><input type="radio" name="q1" value="a"> A type of malware</li>
+                <li><input type="radio" name="q1" value="b"> A type of hacking technique</li>
+                <li><input type="radio" name="q1" value="c"> A type of social engineering attack</li>
+              </ul>
+              <p>Question 2: What is two-factor authentication?</p>
+              <ul>
+                <li><input type="radio" name="q2" value="a"> A password manager</li>
+                <li><input type="radio" name="q2" value="b"> A security protocol that requires two forms of identification
+                </li>
+                <li><input type="radio" name="q2" value="c"> A type of encryption algorithm</li>
+              </ul>
+    
+              <a class="btn btn-primary btn center" href="#" role="button" onclick="checkAnswers()">Submit Answers</a>
+    
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <script>
+    function checkAnswers() {
+      var q1 = document.querySelector('input[name="q1"]:checked').value;
+      var q2 = document.querySelector('input[name="q2"]:checked').value;
+      var score = 0;
+      if (q1 === "c") {
+        score += 1;
+      }
+      if (q2 === "b") {
+        score += 1;
+      }
+      alert("You scored " + score + "/2 on the quiz!");
+    }
+  </script>
+
 </body>
 
 </html>
