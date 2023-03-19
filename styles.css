@@ -4,14 +4,22 @@ div{
 .custom-nav {
     background-color: #aafff4; /* set the background color to blue */
   }
+  .button{
+
+    padding: 10px;
+    text-align: center;
+  }
   
 footer {
-    background-color: #333;
+    background-color: #aafff4;
     color: #FFF;
     padding: 10px;
     text-align: center;
   }
- 
+ a{
+    padding: 10px;
+    align-self: center;
+ }
 introduction{
     font: size 5px;
 } 
@@ -38,4 +46,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+  .jumbotron {
+    background: url('img/part0@3x.png') no-repeat center;
+}
  
