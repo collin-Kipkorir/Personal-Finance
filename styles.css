@@ -1,9 +1,20 @@
 div{
     margin: 5px;   
 }
+.custom-nav {
+    background-color: #aafff4; /* set the background color to blue */
+  }
+  
 footer {
     background-color: #333;
     color: #FFF;
     padding: 10px;
     text-align: center;
   }
+ 
+introduction{
+    font: size 5px;
+} 
+.h1{
+    font: size 5px;   
+} 
