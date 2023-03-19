@@ -11,7 +11,7 @@ div{
   }
   
 footer {
-    background-color: #aafff4;
+  background: url('/images/bottom_bg.png') no-repeat;
     color: #FFF;
     padding: 10px;
     text-align: center;
