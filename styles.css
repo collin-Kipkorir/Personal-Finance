@@ -1,3 +1,4 @@
+
 div{
     margin: 5px;   
 }
@@ -47,6 +48,7 @@ h1 {
     margin-bottom: 10px;
   }
   .jumbotron {
-    background: url('img/part0@3x.png') no-repeat center;
+   
+    color: #fff;
 }
  
