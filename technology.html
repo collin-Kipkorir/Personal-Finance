@@ -1,54 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-
-  <title>Cybersecurity Article</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 
+
   <style>
     body {
-      background-color: #f8f9fa;
-     
+      background-color: #faf9f8;
+
+    }
+
+    .custom-nav {
+      background-color: #bccac8;
+      /* set the background color to blue */
+    }
+
+    .navbar-brand {
+      text-decoration: solid;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5em;
+      -webkit-flow-into: inherit;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nav-item {
+      text-decoration: solid;
+      font-style: normal;
+      font-weight: bold;
+
     }
 
     .jumbotron {
       background-color: #bccac8;
       color: #fff;
+      
     }
 
     .card {
-      margin: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    
+
+    footer {
+      background: url('/images/bottom_bg.png') no-repeat;
+      color: #FFF;
+      padding: 10px;
+      text-align: center;
+
     }
   </style>
 </head>
 
 <body>
-
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light custom-nav">
     <a class="navbar-brand" href="#">Daily Hub</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="/index.html">Finance</a>
         </li>
         <li class="nav-item active">
@@ -58,111 +82,97 @@
           <a class="nav-link" href="/healthcare.html">Healthcare</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/education.html">Education</a>
+          <a class="nav-link" href="/livestyle.html">Livestyle</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-4">Stay Safe Online</h1>
-      <p class="lead">Learn how to protect your digital life with our cybersecurity articles and tips.</p>
-      <hr class="my-4">
-    </div>
+  <!-- Header -->
 
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Stay Safe Online</h1>
+      <p class="lead">Learn how to protect your digital life with our cybersecurity articles and tips.</p>
+      </div>
   </div>
 
+
+
+  <!-- Blog Posts -->
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Password Security</h5>
-            <p class="card-text">Learn how to create strong, unique passwords and protect your online accounts.</p>
-            <a href="#" class="security-tip">Read More</a>
+            <h5 class="card-title">Post Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Phishing Scams</h5>
-            <p class="card-text">Discover common phishing scams and how to avoid them.</p>
-            <a href="#" class="security-tip">Read More</a>
+            <h5 class="card-title">Post Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Phishing Scams 2</h5>
-            <p class="card-text">Discover common phishing scams and how to avoid them.</p>
-            <a href="#" class="security-tip">Read More</a>
+            <h5 class="card-title">Post Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Phishing Scams 3</h5>
-            <p class="card-text">Discover common phishing scams and how to avoid them.</p>
-            <a href="#" class="security-tip">Read More</a>
+            <h5 class="card-title">Post Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
           <div class="card-body">
-            <div id="quiz">
-              <h5>Quiz: How Much Do You Know About Cybersecurity?</h3>
-                <p>Question 1: What is a phishing attack?</p>
-                <ul>
-                  <li><input type="radio" name="q1" value="a"> A type of malware</li>
-                  <li><input type="radio" name="q1" value="b"> A type of hacking technique</li>
-                  <li><input type="radio" name="q1" value="c"> A type of social engineering attack</li>
-                </ul>
-                <p>Question 2: What is two-factor authentication?</p>
-                <ul>
-                  <li><input type="radio" name="q2" value="a"> A password manager</li>
-                  <li><input type="radio" name="q2" value="b"> A security protocol that requires two forms of
-                    identification
-                  </li>
-                  <li><input type="radio" name="q2" value="c"> A type of encryption algorithm</li>
-                </ul>
-
-                <div class="button">
-                  <a class="btn btn-primary btn center" href="#" role="button" onclick="checkAnswers()">Submit
-                    Answers</a>
-                </div>
-
-            </div>
+            <h5 class="card-title">Post Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Post Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
-  <script>
-    function checkAnswers() {
-      var q1 = document.querySelector('input[name="q1"]:checked').value;
-      var q2 = document.querySelector('input[name="q2"]:checked').value;
-      var score = 0;
-      if (q1 === "c") {
-        score += 1;
-      }
-      if (q2 === "b") {
-        score += 1;
-      }
-      alert("You scored " + score + "/2 on the quiz!");
-    }
-  </script>
   <footer>
     All rights reserved. &copy; 2023 Moneyandfinance.
   </footer>
-
 </body>
 
 </html>

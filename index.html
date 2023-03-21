@@ -4,7 +4,7 @@
 <head>
     <title>Personal finance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -16,13 +16,43 @@
 
         }
 
+        .custom-nav {
+            background-color: #bccac8;
+            /* set the background color to blue */
+        }
+
+        .navbar-brand {
+            text-decoration: solid;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.5em;
+            -webkit-flow-into: inherit;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
         .jumbotron {
             background-color: #bccac8;
             color: #fff;
+
         }
 
         .card {
-            margin: 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .nav-item {
+            text-decoration: solid;
+            font-style: normal;
+            font-weight: bold;
+
+        }
+
+        footer {
+            background: url('/images/bottom_bg.png') no-repeat;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
@@ -46,7 +76,7 @@
                     <a class="nav-link" href="/healthcare.html">Healthcare</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/education.html">Education</a>
+                    <a class="nav-link" href="/livestyle.html">Livestyle</a>
                 </li>
             </ul>
         </div>
@@ -55,7 +85,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-4">Personal finance</h1>
-            <p>Get even more financial clarity with Daily Hub</p>
+            <p>Get Personal Finace information written by financial experts for Kenya</p>
             <hr class="my-4">
         </div>
     </div>
@@ -112,7 +142,8 @@
             <img src="/images/retire.png" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">How to Plan for Retirement When You're Self-Employed</h5>
-                <p class="card-text">Here are the guides for self-employed individuals who are responsible for their own retirement
+                <p class="card-text">Here are the guides for self-employed individuals who are responsible for their own
+                    retirement
                     planning. It also cover topics like setting up a solo 401(k) or SEP IRA, calculating your
                     retirement savings goals, and navigating the tax implications of retirement contributions..</p>
                 <a href="#">Read More</a>
